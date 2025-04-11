@@ -1,7 +1,7 @@
 {
   "name": "@carvajalconsultants/eslint-config",
   "version": "0.0.1",
-  "description": "Graphile Preset with common configuration and plugins for CCI applications.",
+  "description": "ESLint config for CCI apps.",
   "main": "eslint.config.mjs",
   "repository": "git@github.com:carvajalconsultants/eslint-config.git",
   "author": "Miguel Carvajal <omar@carvajalonline.com>",
