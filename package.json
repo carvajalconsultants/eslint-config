@@ -1,0 +1,28 @@
+{
+  "name": "@carvajalconsultants/eslint-config",
+  "version": "0.0.1",
+  "description": "Graphile Preset with common configuration and plugins for CCI applications.",
+  "main": "eslint.config.mjs",
+  "repository": "git@github.com:carvajalconsultants/eslint-config.git",
+  "author": "Miguel Carvajal <omar@carvajalonline.com>",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./eslint.config.mjs"
+  },
+  "peerDependencies": {
+    "eslint": "^9.20.0",
+    "typescript": "^5.7.3",
+    "@typescript-eslint/parser": "^8.23.0",
+    "@typescript-eslint/eslint-plugin": "^8.23.0",
+    "@eslint/js": "^9.20.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-import-x": "^4.9.3",
+    "eslint-plugin-storybook": "^0.12.0",
+    "eslint-plugin-prefer-arrow-functions": "^3.6.2",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "eslint-config-prettier": "^10.1.1"
+  }
+}
+
