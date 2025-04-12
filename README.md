@@ -39,7 +39,10 @@ chmod +x .husky/pre-commit
 ...
 {
   "lint-staged": {
-    "**/*.{ts,tsx,js,jsx}": ["yarn run eslint", "git add"]
+    "**/*.{ts,tsx,js,jsx}": [
+      "eslint --report-unused-disable-directives --max-warnings 0 --fix",
+      "prettier --w"
+    ]
   }
 }
 ```
