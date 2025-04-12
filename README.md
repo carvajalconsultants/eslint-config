@@ -21,7 +21,7 @@ yarn husky init
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npx lint-staged
+yarn lint-staged
 ```
 
 Set the permissions to be runnable:
@@ -29,17 +29,17 @@ Set the permissions to be runnable:
 chmod +x .husky/pre-commit
 ```
 
-4. Configure lint-staged to run linter, change package.json (make sure to change SOURCEDIRECTORY):
+4. Configure lint-staged to run linter, change package.json:
 
 ```
 "scripts": {
    ...
-   "lint": "eslint SOURCEDIRECTORY --report-unused-disable-directives --max-warnings 0 --fix && prettier --w SOURCEDIRECTORY",
+   "lint": "eslint --report-unused-disable-directives --max-warnings 0 --fix && prettier --w ."
 },
 ...
 {
   "lint-staged": {
-    "**/*.ts": ["yarn run eslint", "git add"]
+    "**/*.{ts,tsx,js,jsx}": ["yarn run eslint", "git add"]
   }
 }
 ```
