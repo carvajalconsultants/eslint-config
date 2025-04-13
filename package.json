@@ -4,7 +4,7 @@
   "description": "ESLint config for CCI apps.",
   "main": "eslint.config.mjs",
   "repository": "git@github.com:carvajalconsultants/eslint-config.git",
-  "author": "Miguel Carvajal <omar@carvajalonline.com>",
+  "author": "Carvajal Consultants, Inc. <support@carvajalonline.com>",
   "license": "MIT",
   "type": "module",
   "exports": {
