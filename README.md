@@ -6,7 +6,7 @@ To use:
 
  1. Add dependencies
 ```
-yarn add -D @carvajalconsultants/eslint-config eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin @eslint/js eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import-x eslint-plugin-storybook eslint-plugin-prefer-arrow-functions eslint-plugin-react-refresh eslint-import-resolver-typescript @ianvs/prettier-plugin-sort-imports eslint-config-prettier prettier husky lint-staged
+yarn add -D @carvajalconsultants/eslint-config eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin @eslint/js eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import-x eslint-plugin-storybook eslint-plugin-prefer-arrow-functions eslint-plugin-react-refresh eslint-import-resolver-typescript @ianvs/prettier-plugin-sort-imports typescript-eslint eslint-config-prettier prettier husky lint-staged globals
 ```
 
 2. Set up husky so that linter runs on git commit:
