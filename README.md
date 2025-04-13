@@ -29,26 +29,24 @@ chmod +x .husky/pre-commit
 4. Configure lint-staged to run linter, change package.json:
 
 ```
-"scripts": {
-   ...
-   "lint": "eslint --report-unused-disable-directives --max-warnings 0 --fix && prettier --w ."
-},
+  "scripts": {
+    ...
+    "lint": "eslint --report-unused-disable-directives --max-warnings 0 --fix && prettier --w ."
+  },
 ...
-{
   "lint-staged": {
     "**/*.{ts,tsx,js,jsx}": [
       "eslint --report-unused-disable-directives --max-warnings 0 --fix",
       "prettier --w"
     ]
   }
-}
 ```
 
 5. Implement in the eslint.config.mjs file in your project:
 
 ```
 // eslint.config.mjs
-import config from '@carvajalconsultants/eslint-config';
+import config from "@carvajalconsultants/eslint-config";
 
 export default [...config];
 ```
