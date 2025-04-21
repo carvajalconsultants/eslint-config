@@ -25,10 +25,8 @@ export default [
       "**/.vinxi",
       "**/.output",
 
-      // Config files and storybook files that don't need type checking
-      "**/*.config.{ts,mjs,cjs}",
+      // Storybook don't need type checking
       "**/.storybook/**/*.{ts,js}",
-      "**/postcss.config.cjs",
     ],
   },
 
