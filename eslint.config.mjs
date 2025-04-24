@@ -32,7 +32,7 @@ export default [
       "**/.storybook/**/*.{ts,js}",
 
       // Don't lint the PostCSS and linter config
-      "**/*.config.{mjs,cjs]",
+      "**/*.config.{mjs,cjs}",
     ],
   },
 
