@@ -1,6 +1,6 @@
 {
   "name": "@carvajalconsultants/eslint-config",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "ESLint config for CCI apps.",
   "main": "eslint.config.mjs",
   "repository": "git@github.com:carvajalconsultants/eslint-config.git",

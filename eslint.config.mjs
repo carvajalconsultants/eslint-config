@@ -31,8 +31,8 @@ export default [
       // Storybook don't need type checking
       "**/.storybook/**/*.{ts,js}",
 
-      // Don't lint the linter config
-      "**/eslint.config.mjs",
+      // Don't lint the PostCSS and linter config
+      "**/*.config.{mjs,cjs]",
     ],
   },
 
