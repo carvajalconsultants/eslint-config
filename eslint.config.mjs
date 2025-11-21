@@ -237,13 +237,12 @@ export default [
         "error",
         {
           "**/app/components/**/*.tsx": "PASCAL_CASE",
-          "**/packages/components/**/*.tsx": "PASCAL_CASE",
-          "**/app/hooks/*.ts": "CAMEL_CASE",
-          "**/packages/hooks/*.ts": "CAMEL_CASE",
-          "**/app/utils/*.ts": "CAMEL_CASE",
-          "**/packages/utils/*.ts": "CAMEL_CASE",
           "**/app/plugins/*.ts": "PASCAL_CASE",
           "**/app/styles/*.css": "KEBAB_CASE",
+          "**/app/**/hooks/*.ts": "CAMEL_CASE",
+          "**/app/utils/*.ts": "CAMEL_CASE",
+          "**/packages/components/**/*.tsx": "PASCAL_CASE",
+          "**/packages/utils/*.ts": "CAMEL_CASE",
         },
       ],
 
