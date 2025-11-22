@@ -32,6 +32,7 @@ import filenameExport from "eslint-plugin-filename-export";
 // ==========================================================
 // 🔠 Base Regular Expressions for TanStack Start Naming Rules
 // Based on https://tanstack.com/router/latest/docs/framework/react/routing/file-based-routing
+// Regex rules are partly from: https://github.com/dukeluo/eslint-plugin-check-file/blob/main/lib/constants/naming-convention.js
 // ==========================================================
 
 /**
@@ -74,7 +75,7 @@ export const TANSTACK_ROUTE_GROUPS = `\\(${KEBAB_CASE}\\)`;
  * Private folders prefixed with underscore
  * @example _components, _utils
  */
-export const TANSTACK_PRIVATE_FOLDERS = `\\_${KEBAB_CASE}`;
+export const TANSTACK_PRIVATE_FOLDERS = `\\_${CAMEL_CASE}`;
 
 /**
  * Static route segment
